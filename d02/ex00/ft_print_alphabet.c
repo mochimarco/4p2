@@ -1,10 +1,4 @@
-#include <termios.h>
-#include <unistd.h>
-#include <stdio.h>
-#include <ctype.h>
-#include <string.h>
-#include "getch.h"
-#include <stdlib.h>
+
 void		ft_putchar(char c);
 
 void	ft_print_alphabet(void)
@@ -19,10 +13,6 @@ void	ft_print_alphabet(void)
 	}
 }
 
-int main(){
-  ft_print_alphabet();
-  return 0;
-}
 
 void	ft_putchar(char c)
 {

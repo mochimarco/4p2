@@ -1,12 +1,8 @@
 #include <stdio.h>
 #include <unistd.h>
 
-void		ft_putchar(char c);
-
-void	ft_ft(int *nbr)
-{
-	*nbr=42;
-}
+void ft_putchar(char c);
+void ft_ft(int *nbr);
 
 int main(){
 	int a=1;

@@ -13,6 +13,7 @@ void	ft_print_comb(void)
 			{
 			ft_putchar('0'+i);
 			ft_putchar('0'+k);
+			ft_putchar(' ')
 			ft_putchar('0'+l);
 			ft_putchar(',');
 			}

@@ -3,13 +3,10 @@
 
 void		ft_putchar(char c);
 
-void ft_ultimate_ft(int *********nbr)
-{
-	*********nbr=42;
-}
+void ft_ultimate_ft(int *********nbr);
 
 int main(){
-	
+
   return 0;
 }
 
